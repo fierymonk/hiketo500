@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2024 Hiking Totals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="reset.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<header>
+    <div class="parallax" id="site-title">
+        <h1><span id="title-text">Hike to</span><span id="title-number">500</span></h1>
+    </div>
+    <div class="parallax layer-0"></div>
+    <div class="parallax layer-1"></div>
+    <div class="parallax layer-2"></div>
+    <div class="parallax layer-3"></div>
+    <div class="parallax layer-4"></div>
+</header>
+<main>
+    <div id="intro">
+        <h2 class="text-lead">Take a hike!</h2>
+        <div>
+            <p>Last winter I joined my first hiking challenge. I <em>loved</em> it. I signed up for another in the summer and kept going. By the end of the year I accomplished <strong>267 miles</strong>.</p>
+            <p>This year I set a goal to hike <strong>500 miles</strong>. I built this page to help track my progress.</p>
+        </div>
+    </div>
+
+    <section id="completed-stats">
+        <header>Completed: Week <strong id="currentWeek">0</strong> of 52</header>
+        <div class="card" id="completed-miles">
+            <div class="stat" id="number-miles-completed">0</div>
+            <div class="label">Miles</div>
+            <div class="icon"><img src="./img/icons/noun-hike-4236411.svg" alt="Hiking Icon"/></div>
+        </div>
+        <div class="card" id="completed-trails">
+            <div class="stat" id="number-trails">0</div>
+            <div class="label">Trails</div>
+            <div class="icon"><img src="./img/icons/noun-trail-map-6029694.svg" alt="Hiking Icon"/></div>
+        </div>
+        <div class="card" id="completed-hours">
+            <div class="stat" id="number-hours">0</div>
+            <div class="label">Hours</div>
+            <div class="icon"><img src="./img/icons/noun-time-6466421.svg" alt="Hiking Icon"/></div>
+        </div>
+    </section>
+
+    <section id="remaining-stats">
+        <header>Distance to go</header>
+        <div class="card bg-brown" id="remaining-miles">
+            <div class="stat" id="number-miles-remaining">0</div>
+            <div class="label">Miles to go</div>
+            <div class="description">
+                <p>I'm <strong><span  id="number-percent-finished">#</span>&percnt;</strong> of the way to 500 miles!</p>
+            </div>
+        </div>
+        <div class="card bg-brown" id="remaining-split">
+            <div class="stat" id="number-mile-split">0</div>
+            <div class="label">Miles / week</div>
+            <div class="description">
+                <p>Over the next <strong><span id="remaining-weeks">#</span></strong> weeks to hit my goal.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="weekly-stats">
+        <header>Weekly Details</header>
+        <div id="weekly-table">
+            <!-- injected with data -->
+        </div>
+    </section>
+
+</main>
+<script type="module" src="script.js"></script>
+</body>
+</html>
