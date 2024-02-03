@@ -151,9 +151,6 @@
             box-shadow: var(--shadow-sm);
             grid-template-rows: 0fr;
 
-            .wk-number .label{
-                font-size: ;
-            }
             .wk-toggle .icon{
                 background-color: darkred;
                 color: white;
