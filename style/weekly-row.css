@@ -1,0 +1,169 @@
+.weekly-row{
+    background-color: rgb(255 255 255 / 0);
+    border-radius: .5rem;
+    box-shadow: 0 0 0 rgb(0 0 0 / 0);
+    overflow: hidden;
+    position: relative;
+    transition: all .5s var(--timing-eoq);
+    transform: scale(0.975);
+    z-index: 1;
+
+    /* inactive */
+    .overview {
+        font-family: var(--font-heading);
+        font-size: calc(var(--fontsize) * 1.2);
+        grid-template-rows: 1fr;
+        display: flex;
+        justify-content: space-between;
+        padding: var(--base-padding);
+        .wk-number{
+            display: flex;
+            align-items: baseline;
+            .label {
+                writing-mode: vertical-lr;
+                transform: rotate(180deg);
+                text-transform: uppercase;
+                font-size: calc(var(--fontsize)*.5);
+            }
+        }
+        .wk-toggle{
+            padding-right: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .icon{
+                border: 1px solid currentColor;
+                border-radius: 50%;
+                aspect-ratio: 1/1;
+                width: 1.5rem;
+                position: relative;
+                transition: transform .5s var(--timing-eoq);
+                transform: rotate(0);
+                &::after,
+                &::before{
+                    --line-weight: .1rem;
+                    content: "";
+                    background-color: currentColor;
+                    border-radius: 3px;
+                    display: block;
+                    position: absolute;
+                    left: calc(50% - calc(var(--line-weight)/2));
+                    top: 20%;
+                    height: 60%;
+                    width: var(--line-weight);
+                    transform-origin: center;
+                }
+                &::before{
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+    .detail {
+        color: var(--brown);
+        grid-template-rows: 0fr;
+
+        .trail-list{
+            border-top: 2px solid var(--beige);
+            padding: calc(var(--base-padding)*2);
+        }
+        .trail{
+            align-items: top;
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            gap: var(--column-gap);
+
+            @media(min-width:768px){
+                align-items: center;
+                grid-template-columns: 1fr 5fr;
+            }
+
+            & + .trail{margin-top: 2rem;}
+        }
+        .trail-image img{
+            border-radius: .5rem;
+            box-shadow: var(--shadow-sm);
+        }
+        .trail-details{
+            display: grid;
+            grid-template-areas:    "top top"
+                                    "far-left far-right"
+                                    "left right";
+            grid-template-rows: auto;
+            @media(min-width:768px){
+                grid-template-areas:    "top top top top"
+                                    "far-left left right far-right";
+                grid-template-columns: 1.5fr 1fr 1fr 1fr;
+            }
+
+        }
+        .trail-name{
+            border-bottom: 1px solid var(--gold);
+            grid-area: top;
+            font-weight: bold;
+            font-size: calc(var(--fontsize) * 1.25);
+            margin-bottom: .5rem;
+        }
+        .trail-location{
+            grid-area: far-left;
+        }
+        .trail-length{
+            grid-area: left;
+            @media(min-width:768px){
+                justify-self: end;
+            }
+        }
+        .trail-time{
+            grid-area: right;
+            justify-self: end;
+        }
+        .trail-date{
+            grid-area: far-right;
+            justify-self: end;
+        }
+
+        .number{
+            font-size: calc(var(--fontsize) * 2.5);
+        }
+        .wk-number{
+
+        }
+    }
+    &:nth-child(even){
+        background-color: rgb(255 255 255 / .1);
+    }
+    /*Hover*/
+    &:hover{
+        background-color: var(--brown);
+        transform:scale(1);
+        z-index: 2;
+    }
+    /*active*/
+    &.active{
+        background-color: rgb(255 255 255 / 1);
+        box-shadow: 0 10px 17px rgb(0 0 0 / .5);
+        color: var(--earth);
+        transform:scale(1);
+        z-index: 3;
+        .overview{
+            --fontsize: 2rem;
+            box-shadow: var(--shadow-sm);
+            grid-template-rows: 0fr;
+
+            .wk-number .label{
+                font-size: ;
+            }
+            .wk-toggle .icon{
+                background-color: darkred;
+                color: white;
+                width: 1.75rem;
+                transform: rotate(135deg);
+            }
+        }
+        .detail{
+            grid-template-rows: 1fr;
+        }
+
+    }
+}

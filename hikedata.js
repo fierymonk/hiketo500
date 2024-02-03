@@ -94,7 +94,7 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Holcomb and Ross Pond Loops",
-                "image": "./img/wk04/IMG_0000.webp",
+                "image": "./img/wk04/IMG_0230.webp",
                 "location": "Gowanda, NY",
                 "mileage": 3.86,
                 "date": "2024-01-27",
@@ -105,7 +105,7 @@ export var hikeData ={
             },
             {
                 "name": "Sprague Brook County Park",
-                "image": "./img/wk04/IMG_0000.webp",
+                "image": "./img/wk04/IMG_0229.webp",
                 "location": "Glenwood, NY",
                 "mileage": 9.26,
                 "date": "2024-01-27",
