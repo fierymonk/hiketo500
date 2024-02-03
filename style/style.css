@@ -1,5 +1,6 @@
 @import "remaining-stats.css";
 @import "weekly-row.css";
+@import "about.css";
 
 h1, h2, h3, h4, h5, h6{
     font-family: var(--font-heading);
@@ -28,7 +29,7 @@ body > header{
     background-image: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(250,255,200,1) 100%);
     background-color: var(--harvest);
     contain: paint;
-    min-height: 80dvh;
+    height: 90lvh;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
@@ -43,7 +44,7 @@ body > header{
         background-size: cover;
         grid-column: 1/-1;
         grid-row: 1/-1;
-        min-height: 100lvh;
+        min-height: 90lvh;
         position: relative;
         width: 100%;
         /*@media(min-width:821px){*/
@@ -61,8 +62,8 @@ body > header{
         & > h1 {
             color: var(--gold);
             opacity: 0;
-            animation: fadeUpIn forwards cubic-bezier(0.470, -0.060, 0.315, 0.980) 1.5s;
-            animation-delay: .5s;
+            animation: fadeUpIn forwards var(--timing-eio) 2.5s;
+            animation-delay: 1s;
         }
         span{display: block;}
 
@@ -119,7 +120,7 @@ body > header{
     }
 }
 
-#intro, #completed-stats, #remaining-stats{
+#intro, #completed-stats, #remaining-stats, #weekly-stats{
     padding-bottom: 2rem;
 }
 #completed-stats{
@@ -160,7 +161,8 @@ body > header{
         grid-gap: 1rem var(--column-gap);
         grid-template-areas:    "intro intro intro"
                                 "top top top"
-                                "left right right";
+                                "left right right"
+                                "about about about";
         grid-template-columns: repeat(3, 1fr) ;
     }
     #intro{
@@ -188,7 +190,8 @@ body > header{
         .label{font-weight: bold}
     }
 
-    #weekly-stats{grid-area: right}
+    #weekly-stats{grid-area: right;}
+    #about{grid-area: about;}
 }
 /* Desktops */
 @media screen and (min-width: 1024px){
@@ -303,7 +306,7 @@ img{
 
     from{
         opacity: 0;
-        transform: translateY(10dvh);
+        transform: translateY(50lvh);
     }
     to {
         opacity: 1;

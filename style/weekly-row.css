@@ -72,10 +72,11 @@
             align-items: top;
             display: grid;
             grid-template-columns: 1fr 4fr;
-            gap: var(--column-gap);
+            gap: calc(var(--column-gap)/2);
 
             @media(min-width:768px){
                 align-items: center;
+                gap: var(--column-gap);
                 grid-template-columns: 1fr 5fr;
             }
 
@@ -147,7 +148,9 @@
         transform:scale(1);
         z-index: 3;
         .overview{
-            --fontsize: 2rem;
+            @media screen and (min-width:768px){
+                --fontsize: 2rem;
+            }
             box-shadow: var(--shadow-sm);
             grid-template-rows: 0fr;
 

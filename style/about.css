@@ -1,0 +1,33 @@
+#about{
+    div + div{
+        margin-top: 2rem;
+    }
+    #portrait img{
+        border-radius: 100%;
+        height: auto;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    h3{margin-bottom: 1rem;}
+    @media screen and (min-width:767px) {
+        display: grid;
+        gap: var(--column-gap);
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-areas:    "header header header"
+                                "left center right";
+
+        div + div{
+            margin-top: 0;
+        }
+
+
+        header{ grid-area: header;}
+        #portrait{
+            grid-area: left;
+
+            img{max-width: 100%;}
+        }
+        #bio{ grid-area: center;}
+        #links{grid-area: right;}
+    }
+}

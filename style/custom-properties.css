@@ -18,5 +18,6 @@
 
     --column-gap: 3rem;
 
+    --timing-eio: cubic-bezier(0.405, 0.010, 0.255, 1.005);
     --timing-eoq: cubic-bezier(0.230, 1.000, 0.320, 1.000);
 }

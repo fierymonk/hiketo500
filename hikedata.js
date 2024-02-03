@@ -8,7 +8,7 @@ export var hikeData ={
                 "image": "./img/wk01/IMG_0038.webp",
                 "location": "Portville, NY",
                 "mileage": 0.41,
-                "date": "2024-01-01",
+                "date": "1/1/2024",
                 "duration": {
                     "minutes": 16
                 }
@@ -18,7 +18,7 @@ export var hikeData ={
                 "image": "./img/wk01/IMG_0035.webp",
                 "location": "East Concord, NY",
                 "mileage": 2.92,
-                "date": "2024-01-01",
+                "date": "1/1/2024",
                 "duration": {
                     "hours": 1,
                     "minutes": 8
@@ -29,7 +29,7 @@ export var hikeData ={
                 "image": "./img/wk01/IMG_0032.webp",
                 "location": "Buffalo, NY",
                 "mileage": 2.71,
-                "date": "2024-01-07",
+                "date": "1/7/2024",
                 "duration": {
                     "minutes": 54
                 }
@@ -39,7 +39,7 @@ export var hikeData ={
                 "image": "./img/wk01/IMG_0033.webp",
                 "location": "Hamburg, NY",
                 "mileage": 4,
-                "date": "2024-01-07",
+                "date": "1/7/2024",
                 "duration": {
                     "hours": 1,
                     "minutes": 26
@@ -50,7 +50,7 @@ export var hikeData ={
                 "image": "./img/wk01/IMG_0034.webp",
                 "location": "North Collins, NY",
                 "mileage": 2.04,
-                "date": "2024-01-07",
+                "date": "1/7/2024",
                 "duration": {
                     "minutes": 51
                 }
@@ -70,7 +70,7 @@ export var hikeData ={
                 "image": "./img/wk03/IMG_0135.webp",
                 "location": "Amherst, NY",
                 "mileage": 4.0,
-                "date": "2024-01-21",
+                "date": "1/21/2024",
                 "duration": {
                     "hours": 1,
                     "minutes": 42
@@ -81,7 +81,7 @@ export var hikeData ={
                 "image": "./img/wk03/IMG_0136.webp",
                 "location": "Depew, NY",
                 "mileage": 1.8,
-                "date": "2024-01-21",
+                "date": "1/21/2024",
                 "duration": {
                     "hours": 1,
                     "minutes": 27
@@ -97,7 +97,7 @@ export var hikeData ={
                 "image": "./img/wk04/IMG_0230.webp",
                 "location": "Gowanda, NY",
                 "mileage": 3.86,
-                "date": "2024-01-27",
+                "date": "1/27/2024",
                 "duration": {
                     "hours": 1,
                     "minutes": 24
@@ -108,7 +108,7 @@ export var hikeData ={
                 "image": "./img/wk04/IMG_0229.webp",
                 "location": "Glenwood, NY",
                 "mileage": 9.26,
-                "date": "2024-01-27",
+                "date": "1/27/2024",
 		        "duration": {
                     "hours": 3,
                     "minutes": 22
