@@ -1,0 +1,22 @@
+:root{
+    /* Color pallet */
+    --cream: #FFFDD0;
+    --gold: #889f5a;
+    --beige: #8A8671;
+    --harvest: #F0D965;
+    --brown: #575444;
+    --earth: #1e251c; /*#332F1E;
+    /* Fonts */
+    --font-heading: 'Bebas Neue', sans-serif;
+    --font-body: sans-serif;
+    --fontsize: 1.25rem;
+    /* Shared */
+    --base-padding: .5rem;
+    --shadow-sm: 0 2px 4px rgb(0 0 0 / .75);
+    --shadow: 0 4px 6px rgb(0 0 0 / .75), 0 6px 12px rgb(0 0 0 / .4);
+    --shadow-lg: 0 8px 6px rgb(0 0 0 / .75), 0 10px 16px rgb(0 0 0 / .4);
+
+    --column-gap: 3rem;
+
+    --timing-eoq: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+}

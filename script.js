@@ -23,24 +23,14 @@ function calculateStats() {
         // Generate HTML for the week
         const weekHTML = `
             <div class="weekly-row" >
-                <div class="overview grid-hack">
-                    <div class="inner">
-                        <div class="wk-number">Week ${week.week_number}</div>
-                        <div class="wk-miles">${week.hikes.reduce((acc, hike) => acc + hike.mileage, 0).toFixed(2)} M</div>
-                        <div class="wk-trails">${week.hikes.length} T</div>
-                        <div class="wk-expand">
-                            <span class="closed">+</span>
-                        </div>
-                    </div>
+                <div class="overview">
+                    <div class="wk-number"><span class="label">Week</span><span class="number">${week.week_number}</span></div>
+                    <div class="wk-miles"><span class="number">${week.hikes.reduce((acc, hike) => acc + hike.mileage, 0).toFixed(2)}</span><span class="label"> Miles</span></div>
+                    <div class="wk-trails"><span class="number">${week.hikes.length}</span><span class="label"> Trails</span></div>
+                    <div class="wk-toggle"><span class="icon"></span></div>
                 </div>
                 <div class="detail grid-hack">
                     <div class="inner">
-                        <header class="">
-                            <div class="wk-number"><span class="label">Week</span><span class="number">${week.week_number}</span></div>
-                            <div class="wk-miles"><span class="number">${week.hikes.reduce((acc, hike) => acc + hike.mileage, 0).toFixed(2)}</span><span class="label"> Miles</span></div>
-                            <div class="wk-trails"><span class="number">${week.hikes.length}</span><span class="label"> Trails</span></div>
-                            <div>X</div>
-                        </header>
                         <div class="trail-list">
                             ${week.hikes.map((hike) => `
                             <div class="trail">
@@ -48,7 +38,7 @@ function calculateStats() {
                                 <div class="trail-details">
                                     <div class="trail-name"><h3>${hike.name}</h3></div>
                                     <div class="trail-location">${hike.location}</div>
-                                    <div class="trail-length">${hike.mileage.toFixed(2)}</div>
+                                    <div class="trail-length">${hike.mileage.toFixed(2)} mi</div>
                                     <div class="trail-time">${hike.duration.hours || 0}hr ${hike.duration.minutes || 0}min</div>
                                     <div class="trail-date">${hike.date}</div>
                                 </div>
