@@ -26,7 +26,7 @@ export var hikeData ={
             },
             {
                 "name": "Tift Nature Preserve",
-                "image": "./img/wk01/IMG_0032.jpg",
+                "image": "./img/wk01/IMG_0032.webp",
                 "location": "Buffalo, NY",
                 "mileage": 2.71,
                 "date": "2024-01-07",
