@@ -5,7 +5,7 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Pfeiffer Nature Center: Inner Loop",
-                "image": "./img/wk01/IMG_0038.jpg",
+                "image": "./img/wk01/IMG_0038.webp",
                 "location": "Portville, NY",
                 "mileage": 0.41,
                 "date": "2024-01-01",
@@ -15,7 +15,7 @@ export var hikeData ={
             },
             {
                 "name": "Erie County Reforestation Area",
-                "image": "./img/wk01/IMG_0035.jpg",
+                "image": "./img/wk01/IMG_0035.webp",
                 "location": "East Concord, NY",
                 "mileage": 2.92,
                 "date": "2024-01-01",
@@ -36,7 +36,7 @@ export var hikeData ={
             },
             {
                 "name": "18 Mile Creek",
-                "image": "./img/wk01/IMG_0033.jpg",
+                "image": "./img/wk01/IMG_0033.webp",
                 "location": "Hamburg, NY",
                 "mileage": 4,
                 "date": "2024-01-07",
@@ -47,7 +47,7 @@ export var hikeData ={
             },
             {
                 "name": "Franklin Gulf County Park",
-                "image": "./img/wk01/IMG_0034.jpg",
+                "image": "./img/wk01/IMG_0034.webp",
                 "location": "North Collins, NY",
                 "mileage": 2.04,
                 "date": "2024-01-07",
@@ -67,7 +67,7 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Nature View Park",
-                "image": "./img/wk03/IMG_0135.jpg",
+                "image": "./img/wk03/IMG_0135.webp",
                 "location": "Amherst, NY",
                 "mileage": 4.0,
                 "date": "2024-01-21",
@@ -78,7 +78,7 @@ export var hikeData ={
             },
             {
                 "name": "Reinstein Woods",
-                "image": "./img/wk03/IMG_0136.jpg",
+                "image": "./img/wk03/IMG_0136.webp",
                 "location": "Depew, NY",
                 "mileage": 1.8,
                 "date": "2024-01-21",
@@ -94,7 +94,7 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Holcomb and Ross Pond Loops",
-                "image": "./img/wk04/IMG_0000.jpg",
+                "image": "./img/wk04/IMG_0000.webp",
                 "location": "Gowanda, NY",
                 "mileage": 3.86,
                 "date": "2024-01-27",
@@ -105,7 +105,7 @@ export var hikeData ={
             },
             {
                 "name": "Sprague Brook County Park",
-                "image": "./img/wk04/IMG_0000.jpg",
+                "image": "./img/wk04/IMG_0000.webp",
                 "location": "Glenwood, NY",
                 "mileage": 9.26,
                 "date": "2024-01-27",
