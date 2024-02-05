@@ -132,7 +132,7 @@ export var hikeData ={
             },
             {
                 "name": "Letchworth State Park",
-                "image": "./img/wk04/IMG_0302.webp",
+                "image": "./img/wk05/IMG_0302.webp",
                 "location": "Castile, NY",
                 "mileage": 12.96,
                 "date": "2/4/2024",
