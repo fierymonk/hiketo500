@@ -1,6 +1,7 @@
 import { hikeData } from './hikedata.js';
 
-
+const reversedWeeks = Object.keys(hikeData).reverse();
+console.log(reversedWeeks);
 // Function to calculate total miles, total hikes, total duration, and remaining miles
 function calculateStats() {
     let totalMiles = 0;
@@ -11,8 +12,12 @@ function calculateStats() {
     let currentWeek =  hikeData.weeks.length;
     const weeksRemaining = weeksInYear - currentWeek;
 
-    // Loop through weeks
-    hikeData.weeks.forEach((week) => {
+
+    // Reverse the order of hikes for each week
+    const reversedWeeks = [...hikeData.weeks].reverse();
+
+    reversedWeeks.forEach((week) => {
+
         // Loop through hikes in each week
         week.hikes.forEach((hike) => {
             totalMiles += hike.mileage;

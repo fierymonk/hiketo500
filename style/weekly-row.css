@@ -18,13 +18,15 @@
         padding: var(--base-padding);
         .wk-number{
             display: flex;
-            align-items: baseline;
+            align-items: center;
             .label {
                 writing-mode: vertical-lr;
+                letter-spacing: .5px;
                 transform: rotate(180deg);
                 text-transform: uppercase;
                 font-size: calc(var(--fontsize)*.5);
             }
+            .number{}
         }
         .wk-toggle{
             padding-right: 1rem;
