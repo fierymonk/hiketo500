@@ -115,6 +115,34 @@ export var hikeData ={
                 }
             }
         ]
-    }
+    },
+    {
+        "week_number": 5,
+        "hikes": [
+            {
+                "name": "Hunters Creek",
+                "image": "./img/wk05/IMG_0253.webp",
+                "location": "East Aurora, NY",
+                "mileage": 5.53,
+                "date": "2/3/2024",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 54
+                }
+            },
+            {
+                "name": "Letchworth State Park",
+                "image": "./img/wk04/IMG_0302.webp",
+                "location": "Castile, NY",
+                "mileage": 12.96,
+                "date": "2/4/2024",
+		        "duration": {
+                    "hours": 4,
+                    "minutes": 12
+                }
+            }
+        ]
+    },
+
 ]
 };
