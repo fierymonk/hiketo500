@@ -1,3 +1,4 @@
+@import "hero.css";
 @import "completed-stats.css";
 @import "remaining-stats.css";
 @import "weekly-row.css";
@@ -19,172 +20,55 @@ body{
     padding: 0;
     margin: 0;
 }
-
-main{
-    padding: 0 1rem 1rem;
+footer{
+    background-color: var(--brown);
+    padding: 2rem 1rem;
 }
-
 /*** Layout ***/
 /* Base Styles and Mobile */
-body > header{
-    background-image: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(250,255,200,1) 100%);
-    background-color: var(--harvest);
-    contain: paint;
-    height: 90lvh;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
-
-
-    .parallax{
-        animation: parallax linear;
-        animation-timeline: scroll();
-        background-size: cover;
-        grid-column: 1/-1;
-        grid-row: 1/-1;
-        min-height: 90lvh;
-        position: relative;
-        width: 100%;
-        /*@media(min-width:821px){*/
-        /*    background-size: contain;*/
-        /*}*/
-
+section {
+    & + section {
+        margin-top: 2rem;
     }
-    #site-title{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        z-index: 3;
-
-        & > h1 {
-            color: var(--gold);
-            opacity: 0;
-            animation: fadeUpIn forwards var(--timing-eio) 2.5s;
-            animation-delay: 1s;
-        }
-        span{display: block;}
-
-        #title-text{font-size:200%;}
-        #title-number{font-size:500%;line-height: 80%}
-
-        @media(min-width:768px){
-            #title-text{ font-size:300%;}
-            #title-number{font-size:clamp(800%, 30vw, 1000vw);}
-            span{}
-        }
-        @media(min-width:1024px){
-            #title-text{ font-size:300%;}
-            #title-number{font-size:clamp(500%, 50vw, 1300%);}
-            span{}
-        }
+    .container{
+        padding: 0 1rem;
     }
-
-    /*@media(min-width:1000px){*/
-    /*    #site-title */
-    /*}*/
-
-    .layer-0,.layer-1,.layer-2 {
-        background-repeat: no-repeat;
-        @media(max-width:767px){
-            background-position: 15% 100%, 75% 100%;
-        }
-        @media(min-width:768px){
-            background-position: 15% 100%, 95% 100%;
-        }
-        @media(min-width:1024px){
-            background-position: 0 100%, 100% 100%;
-        }
-    }
-    .layer-3, .layer-4{
-        background-position: 65% 100%;
-        background-repeat: repeat-x;
-    }
-    .layer-0{--parallax-speed:0; z-index: 6; background-image: url('../img/hero/0-left.webp'),url('../img/hero/0-right.webp');}
-    .layer-1{--parallax-speed:1.75; z-index: 5; background-image: url('../img/hero/1-left.webp'),url('../img/hero/1-right.webp');}
-    .layer-2{--parallax-speed:3; z-index: 4; background-image: url('../img/hero/2-left.webp'),url('../img/hero/2-right.webp');}
-    #site-title{--parallax-speed: 4;}
-    .layer-3{--parallax-speed:4.75; z-index: 2; background-image: url('../img/hero/3-full.webp');}
-    .layer-4{--parallax-speed:5.5; z-index: 1; background-image: url('../img/hero/4-full.webp');}
-}
-
-/* Testing to see if this works while un-nested */
-@supports (background-clip:text) or (-webkit-background-clip:text) {
-    #site-title > h1 {
-        color: transparent !important;
-        background-clip: text !important;
-        -webkit-background-clip: text;
-        background: linear-gradient(0deg, #cad5b1 5%, var(--gold) 30%); /*#b6c29f*/
-    }
-}
-
-#intro, #completed-stats, #remaining-stats, #weekly-stats{
-    padding-bottom: 2rem;
-}
-
-
-
-/* Tablet Portrait*/
-@media screen and (min-width: 768px){
-    main{
-        display: grid;
-        grid-gap: 1rem var(--column-gap);
-        grid-template-areas:    "intro intro intro"
-                                "top top top"
-                                "left right right"
-                                "about about about";
-        grid-template-columns: repeat(3, 1fr) ;
-    }
-    #intro{
-        grid-area: intro;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        gap: var(--column-gap);
-    }
-    #completed-stats{
-        grid-area: top;
-        display: grid;
-        grid-template-areas: "top top top"
-                    "left middle right";
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto auto;
-        column-gap: var(--column-gap);
-        header{grid-area:top;}
-        #completed-miles{grid-area:left;}
-        #completed-trails{grid-area:middle;}
-        #completed-hours{grid-area:right;}
-        .card{
-            aspect-ratio: 3/2;
-        }
-        .stat{--multiplier: 4.25;}
-        .label{font-weight: bold}
-    }
-
-    #weekly-stats{grid-area: right;}
-    #about{grid-area: about;}
-}
-/* Desktops */
-@media screen and (min-width: 1024px){
-    main{
-        margin: 0 auto;
-        width: clamp(800px, 90vw, 1300px);
-        grid-gap: var(--column-gap);
-    }
-
-}
-
-section{
-    /*margin-top: 2rem;*/
-
-    header{
+    .header-row{
         border-bottom: 1px solid var(--cream);
         margin-bottom: 1rem;
         @media(min-width: 768px){
             margin-bottom: 2rem;
         }
+    }
+    @media screen and (min-width: 786px){
+        .container{
+            margin: 0 auto;
+            width: clamp(768px, 75vw, 1300px);
+        }
+        .grid {
+            display: grid;
+            column-gap: var(--column-gap);
+        }
+    }
+}
+
+
+#intro .grid{
+    @media(min-width:768px){
+        grid-template-columns: 1fr 2fr;
+
+        .text-lead{grid-column: 1/2;}
+        div{grid-column: 2/3;}
+    }
+}
+
+#breakdown-stats .container > .grid{
+    @media(min-width: 768px){
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+
+        #remaining-stats{grid-column: 1/2;}
+        #weekly-stats{grid-column: 2/4;}
     }
 }
 
@@ -227,17 +111,32 @@ img{
 
 
 .text-lead{
-    @media screen and (max-width:767px) {
+    @media screen and (max-width:785px) {
         font-size: 15vw;
     }
-    @media screen and (min-width:767px) {
-        font-size: 7.5vw;
+    @media screen and (min-width:786px) {
+        font-size: 3.75rem;
     }
     @media screen and (min-width:1024px) {
-        font-size: 7vw;
+        font-size: 5.75vw;
     }
-    @media screen and (min-width:1361px) {
-        font-size: clamp(2rem,7vw, 6.5rem);
+}
+
+.btn{
+    border-radius: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    transition: background-color .25s ease, outline .25s ease;
+    outline: 0 solid rgb(0 0 0 / .15);
+
+    /*only the one exists for now... so dumping all styles here*/
+    background-color: var(--brown);
+    color: white;
+
+    &:hover{
+        background-color: var(--earth);
+        outline: .5rem solid rgb(0 0 0 / .15);
     }
 }
 
@@ -247,8 +146,8 @@ img{
 .text-white{color: white;}
 .text-black{color: black;}
 
-.bg-gold{
-    background-color: var(--gold);
+.bg-leaf{
+    background-color: var(--leaf);
 }
 .bg-harvest{
     background-color: var(--harvest);
@@ -261,30 +160,4 @@ img{
     transition: grid-template-rows 0.75s var(--timing-eoq);
 
     .inner{overflow: hidden;}
-}
-
-/** For adjusting the height of the animation in mobile vs desktop **/
-@media screen and (max-width:767px) {
-    :root{--top-mark: -2dvh;}
-}
-@media screen and (min-width:768px) {
-    :root{--top-mark: 0dvh;}
-}
-@media screen and (min-width:1024px){
-    :root{--top-mark: 0dvh;}
-}
-
-@keyframes fadeUpIn{
-
-    from{
-        opacity: 0;
-        transform: translateY(50lvh);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(var(--top-mark));
-        }
-}
-@keyframes parallax {
-    to {transform: translateY( calc( var(--parallax-speed) * 100px) )}
 }

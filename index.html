@@ -16,7 +16,7 @@
 
 </head>
 <body>
-<header>
+<header id="hero">
     <div class="parallax" id="site-title">
         <h1><span id="title-text">Hike to</span><span id="title-number">500</span></h1>
     </div>
@@ -27,75 +27,107 @@
     <div class="parallax layer-4"></div>
 </header>
 <main>
-    <div id="intro">
-        <h2 class="text-lead">Take a hike!</h2>
-        <div>
-            <p>Last winter I joined my first hiking challenge and I <em>loved</em> it. I signed up for another in the summer and kept going. By the end of the year I accomplished <strong>267 miles</strong>.</p>
-            <p>This year I set a goal to hike <strong>500 miles</strong>. I built this page to help track my progress.</p>
+    <section id="intro">
+        <div class="container">
+            <div class="grid">
+                <h2 class="text-lead">Take a hike!</h2>
+                <div>
+                    <p>Last winter I joined my first hiking challenge and I <em>loved</em> it. I signed up for another in the summer and kept going. By the end of the year I accomplished <strong>267 miles</strong>.</p>
+                    <p>This year I set a goal to hike <strong>500 miles</strong>. I built this page to help track my progress.</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
     <section id="completed-stats">
-        <header><h3>Completed</h3> <span>Week <strong id="thisWeek">0</strong> of 52</span></header>
-        <div class="card" id="completed-miles">
-            <div class="stat" id="number-miles-completed">0</div>
-            <div class="label">Miles</div>
-            <div class="icon"><img src="./img/icons/noun-hike-4236411.svg" alt="Hiking Icon"/></div>
-        </div>
-        <div class="card" id="completed-trails">
-            <div class="stat" id="number-trails">0</div>
-            <div class="label">Trails</div>
-            <div class="icon"><img src="./img/icons/noun-trail-map-6029694.svg" alt="Hiking Icon"/></div>
-        </div>
-        <div class="card" id="completed-hours">
-            <div class="stat" id="number-hours">0</div>
-            <div class="label">Hours</div>
-            <div class="icon"><img src="./img/icons/noun-time-6466421.svg" alt="Hiking Icon"/></div>
-        </div>
-    </section>
-
-    <section id="remaining-stats">
-        <header><h3>Distance to go</h3></header>
-        <div class="card bg-brown" id="remaining-miles">
-            <div class="stat" id="number-miles-remaining">0</div>
-            <div class="label">Miles to go</div>
-            <div class="description">
-                <p>I'm <strong><span  id="number-percent-finished">#</span>&percnt;</strong> of the way to 500 miles!</p>
-            </div>
-        </div>
-        <div class="card bg-brown" id="remaining-split">
-            <div class="stat" id="number-mile-split">0</div>
-            <div class="label">Miles / week</div>
-            <div class="description">
-                <p>Over the next <strong><span id="remaining-weeks">#</span></strong> weeks to hit my goal.</p>
+        <div class="container">
+            <div class="grid">
+                <div class="header-row"><h3>Completed</h3> <span>Week <strong id="thisWeek">0</strong> of 52</span></div>
+                <div class="card" id="completed-miles">
+                    <div class="stat" id="number-miles-completed">0</div>
+                    <div class="label">Miles</div>
+                    <div class="icon"><img src="./img/icons/noun-hike-4236411.svg" alt="Hiking Icon"/></div>
+                </div>
+                <div class="card" id="completed-trails">
+                    <div class="stat" id="number-trails">0</div>
+                    <div class="label">Trails</div>
+                    <div class="icon"><img src="./img/icons/noun-trail-map-6029694.svg" alt="Hiking Icon"/></div>
+                </div>
+                <div class="card" id="completed-hours">
+                    <div class="stat" id="number-hours">0</div>
+                    <div class="label">Hours</div>
+                    <div class="icon"><img src="./img/icons/noun-time-6466421.svg" alt="Hiking Icon"/></div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="weekly-stats">
-        <header><h3>Weekly Details</h3></header>
-        <div id="weekly-table">
-            <!-- injected with data -->
+    <section id="breakdown-stats">
+        <div class="container">
+            <div class="grid">
+                <div id="remaining-stats">
+                    <div class="header-row"><h3>Distance to go</h3></div>
+                    <div class="grid sticky">
+                        <div class="card bg-brown" id="remaining-miles">
+                            <div class="stat" id="number-miles-remaining">0</div>
+                            <div class="label">Miles to go</div>
+                            <div class="description">
+                                <p>I'm <strong><span  id="number-percent-finished">#</span>&percnt;</strong> of the way to 500 miles!</p>
+                            </div>
+                        </div>
+                        <div class="card bg-brown" id="remaining-split">
+                            <div class="stat" id="number-mile-split">0</div>
+                            <div class="label">Miles / week</div>
+                            <div class="description">
+                                <p>Over the next <strong><span id="remaining-weeks">#</span></strong> weeks to hit my goal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="weekly-stats">
+                    <div class="header-row"><h3>Weekly Details</h3></div>
+                    <div id="weekly-table">
+                        <!-- injected with data -->
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+
 
     <section id="about">
-        <header>About Me</header>
-        <div id="portrait"><img src="./img/portrait.webp" alt="Portrait of the author at Chimney Bluffs State Park, Wolcott NY" /></div>
-        <div id="bio">
-            <h3>Hi, I'm Andy.</h3>
-            <p>Husband, father, web and UI designer, Pfeiffer Nature Center board member, freelance designer/illustrator, amateur plein air painter, motorcycle enthusiast.</p>
-            <p>This site will update weekly as I continue to hike and learn new web technologies.</p>
+        <div class="container">
+            <div class="grid">
+                <!--<div class="header-row"><h2>About</h2></div>-->
+                <div id="portrait"><img src="./img/portrait.webp" alt="Portrait of the author at Chimney Bluffs State Park, Wolcott NY" /></div>
+                <div id="bio">
+                    <h2 style="margin-bottom: 1rem">Hey there.</h2>
+                    <p>I'm Andy. Husband, father, web and UI designer, board member for Pfeiffer Nature Center, freelance designer/illustrator, amateur plein air painter, and motorcycle enthusiast.</p>
+                    <p>This site will update weekly as I continue to hike and learn new web technologies.</p>
+                    <p><a href="mailto:fierymonk@gmail.com" class="btn">Drop me a line</a></p>
+                </div>
+            </div>
         </div>
+    </section>
+
+</main>
+<footer>
+    <section>
+    <div class="container">
+        <small>Links and info about this site here soon!</small>
+        <!--
         <div id="links">
             <h3>Links</h3>
             <p><a href="mailto:fierymonk@gmail.com">Email me</a></p>
             <p><a href="https://outsidechronicles.com/challenges/">The hiking challenge</a> that started this adventure</p>
             <p><a href="https://pfeiffernaturecenter.org/">Pfeiffer Nature Center</a></p>
         </div>
+        -->
+    </div>
     </section>
-
-</main>
+</footer>
 <script type="module" src="script.js"></script>
 </body>
 </html>

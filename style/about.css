@@ -1,33 +1,39 @@
 #about{
-    div + div{
-        margin-top: 2rem;
+    background-color: var(--harvest);
+    color: var(--earth);
+    padding: 2rem 0;
+
+    .header-row{
+        border-color: var(--beige);
     }
     #portrait img{
         border-radius: 100%;
+        box-shadow: var(--shadow-sm);
         height: auto;
         max-width: 50%;
         margin: 0 auto;
     }
-    h3{margin-bottom: 1rem;}
-    @media screen and (min-width:767px) {
-        display: grid;
-        gap: var(--column-gap);
-        grid-template-columns: 1fr 3fr 1fr;
-        grid-template-areas:    "header header header"
-                                "left center right";
 
+    h3{margin-bottom: 1rem;}
+
+    @media screen and (min-width:767px) {
+        .grid{
+            grid-template-columns: 2fr 1fr;
+            grid-template-areas:    "header header"
+                                    "left right";
+            align-items: center;
+        }
         div + div{
             margin-top: 0;
         }
 
 
-        header{ grid-area: header;}
+        .header-row{ grid-area: header;}
         #portrait{
-            grid-area: left;
+            grid-area: right;
 
             img{max-width: 100%;}
         }
-        #bio{ grid-area: center;}
-        #links{grid-area: right;}
+        #bio{ grid-area: left;}
     }
 }

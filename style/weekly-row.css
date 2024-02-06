@@ -102,7 +102,7 @@
 
         }
         .trail-name{
-            border-bottom: 1px solid var(--gold);
+            border-bottom: 1px solid var(--leaf);
             grid-area: top;
             font-weight: bold;
             font-size: calc(var(--fontsize) * 1.25);

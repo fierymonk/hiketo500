@@ -1,0 +1,120 @@
+#hero{
+    background-image: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(250,255,200,1) 100%);
+    background-color: var(--harvest);
+    contain: paint;
+    height: 90lvh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+
+
+    .parallax{
+        animation: parallax linear;
+        animation-timeline: scroll();
+        background-size: cover;
+        grid-column: 1/-1;
+        grid-row: 1/-1;
+        min-height: 90lvh;
+        position: relative;
+        width: 100%;
+        /*@media(min-width:821px){*/
+        /*    background-size: contain;*/
+        /*}*/
+
+    }
+    #site-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 3;
+
+        & > h1 {
+            color: var(--leaf);
+            opacity: 0;
+            animation: fadeUpIn forwards var(--timing-eio) 2.5s;
+            animation-delay: 1s;
+        }
+        span{display: block;}
+
+        #title-text{font-size:200%;}
+        #title-number{font-size:500%;line-height: 80%}
+
+        @media(min-width:768px){
+            #title-text{ font-size:300%;}
+            #title-number{font-size:clamp(800%, 30vw, 1000vw);}
+            span{}
+        }
+        @media(min-width:1024px){
+            #title-text{ font-size:300%;}
+            #title-number{font-size:clamp(500%, 50vw, 1300%);}
+            span{}
+        }
+    }
+
+    /*@media(min-width:1000px){*/
+    /*    #site-title */
+    /*}*/
+
+    .layer-0,.layer-1,.layer-2 {
+        background-repeat: no-repeat;
+        @media(max-width:767px){
+            background-position: 15% 100%, 75% 100%;
+        }
+        @media(min-width:768px){
+            background-position: 15% 100%, 95% 100%;
+        }
+        @media(min-width:1024px){
+            background-position: 0 100%, 100% 100%;
+        }
+    }
+    .layer-3, .layer-4{
+        background-position: 65% 100%;
+        background-repeat: repeat-x;
+    }
+    .layer-0{--parallax-speed:0; z-index: 6; background-image: url('../img/hero/0-left.webp'),url('../img/hero/0-right.webp');}
+    .layer-1{--parallax-speed:2; z-index: 5; background-image: url('../img/hero/1-left.webp'),url('../img/hero/1-right.webp');}
+    .layer-2{--parallax-speed:3.25; z-index: 4; background-image: url('../img/hero/2-left.webp'),url('../img/hero/2-right.webp');}
+    #site-title{--parallax-speed: 4.5;}
+    .layer-3{--parallax-speed:5; z-index: 2; background-image: url('../img/hero/3-full.webp');}
+    .layer-4{--parallax-speed:5.75; z-index: 1; background-image: url('../img/hero/4-full.webp');}
+}
+
+/* Testing to see if this works while un-nested */
+@supports (background-clip:text) or (-webkit-background-clip:text) {
+    #site-title > h1 {
+        color: transparent !important;
+        background-clip: text !important;
+        -webkit-background-clip: text;
+        background: linear-gradient(0deg, #cad5b1 5%, var(--leaf) 30%); /*#b6c29f*/
+    }
+}
+
+/** For adjusting the height of the animation in mobile vs desktop **/
+@media screen and (max-width:767px) {
+    :root{--top-mark: -2dvh;}
+}
+@media screen and (min-width:768px) {
+    :root{--top-mark: 0dvh;}
+}
+@media screen and (min-width:1024px){
+    :root{--top-mark: 0dvh;}
+}
+
+@keyframes fadeUpIn{
+
+    from{
+        opacity: 0;
+        transform: translateY(50lvh);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(var(--top-mark));
+    }
+}
+@keyframes parallax {
+    to {transform: translateY( calc( var(--parallax-speed) * 100px) )}
+}

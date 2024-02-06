@@ -1,12 +1,29 @@
 #remaining-stats{
-    display: grid;
-    grid-template-areas:    "top    top"
-    "left   right";
-    grid-template-columns: 47% 47%;
-    grid-column-gap: 6%;
-    header{grid-area: top;}
-    #remaining-miles{grid-area: left;}
-    #remaining-split{grid-area: right;}
+    margin-bottom: 2rem;
+    .grid {
+        display: grid;
+        grid-template-areas:   "left   right";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: var(--column-gap);
+
+        @media screen and (min-width: 786px){
+
+            grid-template-areas:   "left"
+                                    "right";
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        #remaining-miles {
+            grid-area: left;
+        }
+
+        #remaining-split {
+            grid-area: right;
+        }
+
+    }
     .card{}
     .stat{
         color: white;
@@ -24,20 +41,29 @@
     }
 }
 
-@media screen and (min-width: 768px){
-    #remaining-stats{
-        grid-area: left;
+@media screen and (min-width: 786px) and (max-width: 992px){
+    #remaining-stats .card{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: flex-start;
         .stat{
             --multiplier: 2.5;
         }
-        .label{}
+        .label{
+            border-bottom: none;
+            padding: 0 0 0 .5rem;
+        }
+        .description{
+            border-top: 1px solid var(--beige);
+            padding-top: .5rem;
+            margin-top: .5rem;
+        }
     }
 }
 
 @media screen and (min-width: 1024px){
-    #remaining-stats > div{
+    #remaining-stats .card{
         display: grid;
         grid-template-columns: 2fr 3fr;
         grid-column-gap: 1rem;
@@ -58,6 +84,8 @@
             padding-left: 1rem;
         }
     }
-    #remaining-miles{position: sticky;top:3rem;}
-    #remaining-split{position: sticky;top:12.625rem;}
+    #remaining-stats .sticky{
+        position: sticky;
+        top:3rem;
+    }
 }

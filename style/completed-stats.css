@@ -1,5 +1,5 @@
 #completed-stats{
-    header{
+    .header-row{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -16,17 +16,56 @@
         }
         .label{}
         .icon{
+            opacity: .15;
             position: absolute;
-            @media(max-width: 767px){
+            @media(max-width: 785px){
                 width: 35%;
                 top: 5%;
-                right: 0%;
+                right: 0;
             }
-            opacity: .15;
-            @media(min-width:768px){
+            @media(min-width: 786px){
                 width: 75%;
                 bottom: -50%;
                 right: -10%;
+            }
+        }
+    }
+
+    /** Layout shifts **/
+    @media(min-width:786px){
+        .grid {
+            grid-template-areas: "top top top"
+                        "left middle right";
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto;
+            column-gap: var(--column-gap);
+
+            .header-row {
+                grid-area: top;
+            }
+
+            #completed-miles {
+                grid-area: left;
+            }
+
+            #completed-trails {
+                grid-area: middle;
+            }
+
+            #completed-hours {
+                grid-area: right;
+            }
+
+            .card {
+                aspect-ratio: 3/2;
+            }
+
+            .stat {
+                --multiplier: 4.25;
+            }
+
+            .label {
+                font-weight: bold
             }
         }
     }

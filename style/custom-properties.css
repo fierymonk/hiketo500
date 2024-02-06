@@ -1,7 +1,7 @@
 :root{
     /* Color pallet */
     --cream: #FFFDD0;
-    --gold: #889f5a;
+    --leaf: #889f5a;
     --beige: #8A8671;
     --harvest: #F0D965;
     --brown: #575444;
@@ -16,8 +16,19 @@
     --shadow: 0 4px 6px rgb(0 0 0 / .75), 0 6px 12px rgb(0 0 0 / .4);
     --shadow-lg: 0 8px 6px rgb(0 0 0 / .75), 0 10px 16px rgb(0 0 0 / .4);
 
-    --column-gap: 3rem;
-
     --timing-eio: cubic-bezier(0.405, 0.010, 0.255, 1.005);
     --timing-eoq: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 786px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
+
+    @media screen and (max-width: 991px){
+        --column-gap: 1.5rem;
+    }
+    @media screen and (min-width: 992px){
+        --column-gap: 3rem;
+    }
 }
