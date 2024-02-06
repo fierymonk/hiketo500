@@ -9,8 +9,8 @@ function calculateStats() {
     let totalDurationInMinutes = 0;
     let weeksInYear = 52;
     let goalMiles = 500;
-    let currentWeek =  hikeData.weeks.length;
-    const weeksRemaining = weeksInYear - currentWeek;
+    let hikeWeek =  hikeData.weeks.length;
+    const weeksRemaining = weeksInYear - hikeWeek;
 
 
     // Reverse the order of hikes for each week
@@ -73,7 +73,7 @@ function calculateStats() {
     const milesPerWeek = remainingMiles/weeksRemaining;
 
     // Display the results in the HTML document
-    document.getElementById('currentWeek').textContent = currentWeek;
+    //document.getElementById('hikeWeek').textContent = hikeWeek;
     document.getElementById('number-miles-completed').textContent = totalMiles.toFixed(1);
     document.getElementById('number-trails').textContent = totalHikes;
     document.getElementById('number-hours').textContent = totalDurationInHours.toFixed(1);
@@ -99,3 +99,11 @@ divs.forEach(el => el.addEventListener('click', event => {
         event.target.closest(".weekly-row").classList.add('active');
     }
 }));
+
+//Determining the current week of the year
+const currentDate = new Date();
+const startDate = new Date(currentDate.getFullYear(), 0, 1);
+let days = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
+let weekNumber = Math.ceil(days / 7);
+//Place the years current week
+document.getElementById("thisWeek").textContent = weekNumber;

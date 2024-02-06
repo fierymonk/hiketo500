@@ -1,3 +1,4 @@
+@import "completed-stats.css";
 @import "remaining-stats.css";
 @import "weekly-row.css";
 @import "about.css";
@@ -123,34 +124,6 @@ body > header{
 #intro, #completed-stats, #remaining-stats, #weekly-stats{
     padding-bottom: 2rem;
 }
-#completed-stats{
-    .card{
-        background: linear-gradient(315deg, #ffeb86 0%, var(--harvest) 100%);
-        border: 3px solid var(--harvest);
-        color: var(--earth);
-        overflow: hidden;
-        position: relative;
-
-        .stat{
-            --multiplier: 4;
-        }
-        .label{}
-        .icon{
-            position: absolute;
-            @media(max-width: 767px){
-                width: 35%;
-                top: 5%;
-                right: 0%;
-            }
-            opacity: .15;
-            @media(min-width:768px){
-                width: 75%;
-                bottom: -50%;
-                right: -10%;
-            }
-        }
-    }
-}
 
 
 
@@ -208,8 +181,6 @@ section{
 
     header{
         border-bottom: 1px solid var(--cream);
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: calc(var(--fontsize)* 1.5);
         margin-bottom: 1rem;
         @media(min-width: 768px){
             margin-bottom: 2rem;
@@ -236,12 +207,13 @@ img{
     }
 
     .stat, .label{
-        font-family: 'Bakbak One', sans-serif;
+        font-family: var(--font-heading);
         position: relative;
         z-index: 2;
     }
     .stat{
         font-size: calc(var(--fontsize) * var(--multiplier));
+        letter-spacing: 2px; /*arbitratry*/
         line-height: calc(var(--fontsize) * var(--multiplier));
         text-shadow: 1px 2px 2px rgb(0 0 0 / .3);
     }
@@ -281,7 +253,7 @@ img{
 .bg-harvest{
     background-color: var(--harvest);
 }
-.bg-brown{
+.bg-brown {
     background-color: var(--brown);
 }
 .grid-hack{

@@ -1,0 +1,33 @@
+#completed-stats{
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .card{
+        background: linear-gradient(315deg, #ffeb86 0%, var(--harvest) 100%);
+        border: 3px solid var(--harvest);
+        color: var(--earth);
+        overflow: hidden;
+        position: relative;
+
+        .stat{
+            --multiplier: 4;
+        }
+        .label{}
+        .icon{
+            position: absolute;
+            @media(max-width: 767px){
+                width: 35%;
+                top: 5%;
+                right: 0%;
+            }
+            opacity: .15;
+            @media(min-width:768px){
+                width: 75%;
+                bottom: -50%;
+                right: -10%;
+            }
+        }
+    }
+}
