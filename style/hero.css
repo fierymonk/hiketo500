@@ -75,12 +75,12 @@
         background-position: 65% 100%;
         background-repeat: repeat-x;
     }
-    .layer-0{--parallax-speed:0; z-index: 6; background-image: url('../img/hero/0-left.webp'),url('../img/hero/0-right.webp');}
-    .layer-1{--parallax-speed:2; z-index: 5; background-image: url('../img/hero/1-left.webp'),url('../img/hero/1-right.webp');}
-    .layer-2{--parallax-speed:3.25; z-index: 4; background-image: url('../img/hero/2-left.webp'),url('../img/hero/2-right.webp');}
+    .layer-0{--parallax-speed:0; z-index: 6; background-image: url('../img/hero/0-left-md.webp'),url('../img/hero/0-right-md.webp');}
+    .layer-1{--parallax-speed:2; z-index: 5; background-image: url('../img/hero/1-lef-mdt.webp'),url('../img/hero/1-right-md.webp');}
+    .layer-2{--parallax-speed:3.25; z-index: 4; background-image: url('../img/hero/2-left-md.webp'),url('../img/hero/2-right-md.webp');}
     #site-title{--parallax-speed: 4.5;}
-    .layer-3{--parallax-speed:5; z-index: 2; background-image: url('../img/hero/3-full.webp');}
-    .layer-4{--parallax-speed:5.75; z-index: 1; background-image: url('../img/hero/4-full.webp');}
+    .layer-3{--parallax-speed:5; z-index: 2; background-image: url('../img/hero/3-full-md.webp');}
+    .layer-4{--parallax-speed:5.75; z-index: 1; background-image: url('../img/hero/4-full-md.webp');}
 }
 
 /* Testing to see if this works while un-nested */
