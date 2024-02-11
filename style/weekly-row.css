@@ -1,3 +1,7 @@
+#weekly-stats .header-row{
+    display: flex;
+    justify-content: space-between;
+}
 .weekly-row{
     background-color: rgb(255 255 255 / 0);
     border-radius: .5rem;
