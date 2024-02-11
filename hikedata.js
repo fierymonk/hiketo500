@@ -156,7 +156,29 @@ export var hikeData ={
                     "hours": 2,
                     "minutes": 46
                 }
-            }
+            },
+            {
+                "name": "John B Austin Nature Trail",
+                "image": "./img/wk06/IMG_0369.webp",
+                "location": "Lockport, NY",
+                "mileage": 1.6,
+                "date": "2/11/2024",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 26
+                }
+            },
+            {
+                "name": "Colin T. Grant Gulf Wilderness Park",
+                "image": "./img/wk06/IMG_0368.webp",
+                "location": "Lockport, NY",
+                "mileage": 1.76,
+                "date": "2/11/2024",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 38
+                }
+            },
         ]
     }
 

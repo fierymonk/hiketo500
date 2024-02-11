@@ -35,16 +35,18 @@
             justify-content: center;
 
             .icon{
+                background-color: var(--cream);
                 border: 1px solid currentColor;
                 border-radius: 50%;
+                color: var(--earth);
                 aspect-ratio: 1/1;
                 width: 1.5rem;
                 position: relative;
                 transition: transform .5s var(--timing-eoq);
-                transform: rotate(0);
+                transform: rotate(-45deg);
                 &::after,
                 &::before{
-                    --line-weight: .1rem;
+                    --line-weight: .2rem;
                     content: "";
                     background-color: currentColor;
                     border-radius: 3px;
@@ -52,12 +54,15 @@
                     position: absolute;
                     left: calc(50% - calc(var(--line-weight)/2));
                     top: 20%;
-                    height: 60%;
+                    height: 40%;
                     width: var(--line-weight);
                     transform-origin: center;
                 }
+                &::after{
+                    transform: translateY(10%) translateX(70%);
+                }
                 &::before{
-                    transform: rotate(90deg);
+                    transform: translateY(50%) translateX(-20%) rotate(90deg);
                 }
             }
         }
@@ -161,6 +166,16 @@
                 color: white;
                 width: 1.75rem;
                 transform: rotate(135deg);
+                &::before,
+                &::after{
+                    height: 60%;
+                }
+                &::before{
+                    transform: translateY(0) translateX(0) rotate(90deg);
+                }
+                &::after{
+                    transform: translateY(0) translateX(0) rotate(0deg);
+                }
             }
         }
         .detail{
