@@ -180,6 +180,33 @@ export var hikeData ={
                 }
             },
         ]
+    },
+    {
+        "week_number": 7,
+        "hikes": [
+            {
+                "name": "Beehunter Trail",
+                "image": "./img/wk07/IMG_0408.webp",
+                "location": "Salamanca, NY",
+                "mileage": 6.0,
+                "date": "2/18/2024",
+                "duration": {
+                    "hours": 4,
+                    "minutes": 40
+                }
+            },
+            {
+                "name": "Boutwell Hill State Forest",
+                "image": "./img/wk07/IMG_0409.webp",
+                "location": "Cherry Creek, NY",
+                "mileage": 6.7,
+                "date": "2/18/2024",
+                "duration": {
+                    "hours": 2,
+                    "minutes": 35
+                }
+            }
+        ]
     }
 
 ]
