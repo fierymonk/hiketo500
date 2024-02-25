@@ -207,6 +207,22 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 8,
+        "hikes": [
+            {
+                "name": "Hunter's Creek",
+                "image": "./img/wk08/IMG_0525.webp",
+                "location": "East Aurora, NY",
+                "mileage": 9.41,
+                "date": "2/25/2024",
+                "duration": {
+                    "hours": 3,
+                    "minutes": 45
+                }
+            }
+        ]
     }
 
 ]
