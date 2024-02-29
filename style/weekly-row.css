@@ -98,15 +98,18 @@
             box-shadow: var(--shadow-sm);
         }
         .trail-details{
-            display: grid;
-            grid-template-areas:    "top top"
-                                    "far-left far-right"
-                                    "left right";
-            grid-template-rows: auto;
-            @media(min-width:768px){
-                grid-template-areas:    "top top top top"
-                                    "far-left left right far-right";
-                grid-template-columns: 1.5fr 1fr 1fr 1fr;
+            container: traildetail / inline-size;
+            .layout-grid{
+                display: grid;
+                grid-template-areas:    "top top"
+                                        "far-left far-right"
+                                        "left right";
+                grid-template-rows: auto;
+                @container traildetail (min-width:500px){
+                    grid-template-areas:    "top top top top"
+                                        "far-left left right far-right";
+                    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+                }
             }
 
         }
@@ -121,18 +124,20 @@
             grid-area: far-left;
         }
         .trail-length{
-            grid-area: left;
-            @media(min-width:768px){
-                justify-self: end;
-            }
+            grid-area: far-right;
+            justify-self: end;
         }
         .trail-time{
             grid-area: right;
             justify-self: end;
         }
         .trail-date{
-            grid-area: far-right;
-            justify-self: end;
+            grid-area: left;
+            justify-self: start;
+            @container(min-width:500px){
+                justify-self: end;
+            }
+
         }
 
         .number{

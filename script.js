@@ -41,11 +41,13 @@ function calculateStats() {
                             <div class="trail">
                                 <div class="trail-image"><img src="${hike.image}" alt="Map of ${hike.name}" /></div>
                                 <div class="trail-details">
-                                    <div class="trail-name"><h3>${hike.name}</h3></div>
-                                    <div class="trail-location">${hike.location}</div>
-                                    <div class="trail-length">${hike.mileage.toFixed(2)} mi</div>
-                                    <div class="trail-time">${hike.duration.hours || 0}hr ${hike.duration.minutes || 0}min</div>
-                                    <div class="trail-date">${hike.date}</div>
+                                    <div class="layout-grid">
+                                        <div class="trail-name"><h3>${hike.name}</h3></div>
+                                        <div class="trail-location">${hike.location}</div>
+                                        <div class="trail-length">${hike.mileage.toFixed(2)} mi</div>
+                                        <div class="trail-time">${hike.duration.hours || 0}hr ${hike.duration.minutes || 0}min</div>
+                                        <div class="trail-date">${hike.date}</div>
+                                    </div>
                                 </div>
                             </div>
                             `).join('')}
