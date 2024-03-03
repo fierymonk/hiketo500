@@ -223,6 +223,33 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 9,
+        "hikes": [
+            {
+                "name": "Oak Orchard",
+                "image": "./img/wk09/IMG_0579.webp",
+                "location": "Oakfield, NY",
+                "mileage": 4.16,
+                "date": "3/3/2024",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 9
+                }
+            },
+            {
+                "name": "Darien Lakes State Park",
+                "image": "./img/wk09/IMG_0580.webp",
+                "location": "Darien Center, NY",
+                "mileage": 6.52,
+                "date": "3/3/2024",
+                "duration": {
+                    "hours": 2,
+                    "minutes": 2
+                }
+            }
+        ]
     }
 
 ]
