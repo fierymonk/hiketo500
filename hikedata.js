@@ -250,6 +250,33 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 10,
+        "hikes": [
+            {
+                "name": "Owen Falls Sanctuary",
+                "image": "./img/wk010/IMG_0615.webp",
+                "location": "East Aurora, NY",
+                "mileage": 1.52,
+                "date": "3/9/2024",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 33
+                }
+            },
+            {
+                "name": "Ashwood Trail",
+                "image": "./img/wk10/IMG_0616.webp",
+                "location": "Orchard Park, NY",
+                "mileage": 1.44,
+                "date": "3/9/2024",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 25
+                }
+            }
+        ]
     }
 
 ]
