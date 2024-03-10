@@ -275,6 +275,17 @@ export var hikeData ={
                     "hours": 0,
                     "minutes": 25
                 }
+            },
+            {
+                "name": "Reinstein/Stiglmeier Parks",
+                "image": "./img/wk10/IMG_0634.webp",
+                "location": "Depew, NY",
+                "mileage": 5.55,
+                "date": "3/10/2024",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 33
+                }
             }
         ]
     }
