@@ -256,7 +256,7 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Owen Falls Sanctuary",
-                "image": "./img/wk010/IMG_0615.webp",
+                "image": "./img/wk10/IMG_0615.webp",
                 "location": "East Aurora, NY",
                 "mileage": 1.52,
                 "date": "3/9/2024",
