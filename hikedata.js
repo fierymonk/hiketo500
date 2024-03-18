@@ -288,6 +288,22 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 11,
+        "hikes": [
+            {
+                "name": "Carlton Hill Multiple Use Area",
+                "image": "./img/wk11/IMG_0682.webp",
+                "location": "Wyoming, NY",
+                "mileage": 4.84,
+                "date": "3/17/2024",
+                "duration": {
+                    "hours": 2,
+                    "minutes": 6
+                }
+            }
+        ]
     }
 
 ]
