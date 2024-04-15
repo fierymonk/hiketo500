@@ -304,7 +304,81 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 12,
+        "hikes": [
+            {
+                "name": "Asbury Woods",
+                "image": "./img/wk12/IMG_0858.webp",
+                "location": "Erie, NY",
+                "mileage": 3.24,
+                "date": "3/19/2024",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 57
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 13,
+        "hikes": [
+            {
+                "name": "Pfeiffer Nature Center: Inner Loop",
+                "image": "./img/wk13/IMG_0857.webp",
+                "location": "Portville, NY",
+                "mileage": 1.7,
+                "date": "3/30/2024",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 40
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 14,
+        "hikes": [
+            {
+                "name": "Akron Falls",
+                "image": "./img/wk14/IMG_0856.webp",
+                "location": "Akron, NY",
+                "mileage": 1.49,
+                "date": "4/06/2024",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 49
+                }
+            },
+            {
+                "name": "Stony Brook State Park",
+                "image": "./img/wk14/IMG_0855.webp",
+                "location": "Dansville, NY",
+                "mileage": 2.54,
+                "date": "4/07/2024",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 49
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 15,
+        "hikes": [
+            {
+                "name": "Franklin Gulf Park",
+                "image": "./img/wk15/IMG_0854.webp",
+                "location": "North Collins, NY",
+                "mileage": 2.48,
+                "date": "4/14/2024",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 4
+                }
+            }
+        ]
     }
-
-]
+    ]
 };
