@@ -379,6 +379,22 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 16,
+        "hikes": [
+            {
+                "name": "Franklin Gulf Park",
+                "image": "./img/wk16/IMG_0854.webp",
+                "location": "North Collins, NY",
+                "mileage": 2.25,
+                "date": "4/20/2024",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 31
+                }
+            }
+        ]
     }
     ]
 };
