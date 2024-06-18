@@ -385,13 +385,333 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Franklin Gulf Park",
-                "image": "./img/wk16/IMG_0854.webp",
+                "image": "./img/wk16/IMG_0873.webp",
                 "location": "North Collins, NY",
                 "mileage": 2.25,
                 "date": "4/20/2024",
                 "duration": {
                     "hours": 1,
                     "minutes": 31
+                }
+            },
+            {
+                "name": "Scenic Woods Red and Orange Trail Loop",
+                "image": "./img/wk16/IMG_1259.webp",
+                "location": "Grand Island, NY",
+                "mileage": 1.5,
+                "date": "4/20/2024",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 27
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 17,
+        "hikes": [
+            {
+                "name": "Hoyt Lake Loop",
+                "image": "./img/wk17/IMG_1257.webp",
+                "location": "Buffalo, NY",
+                "mileage": 1.3,
+                "date": "4/22/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 20
+                }
+            },
+            {
+                "name": "Clear Lake East Loop",
+                "image": "./img/wk17/IMG_1256.webp",
+                "location": "North Collins, NY",
+                "mileage": 3.4,
+                "date": "4/28/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 48
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 18,
+        "hikes": [
+            {
+                "name": "Walton Woods",
+                "image": "./img/wk17/IMG_1255.webp",
+                "location": "Amherst, NY",
+                "mileage": 1.4,
+                "date": "5/1/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 22
+                }
+            },
+            {
+                "name": "Birdsong Park",
+                "image": "./img/wk17/IMG_1254.webp",
+                "location": "Orchard Park, NY",
+                "mileage": 1.5,
+                "date": "5/1/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 27
+                }
+            },
+            {
+                "name": "Chautauqua Gorge State Forest",
+                "image": "./img/wk17/IMG_1253.webp",
+                "location": "Mayville, NY",
+                "mileage": 4.2,
+                "date": "5/3/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 12
+                }
+            },
+            {
+                "name": "North Harmony State Forest",
+                "image": "./img/wk17/IMG_1252.webp",
+                "location": "Panama, NY",
+                "mileage": 6.2,
+                "date": "5/3/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 54
+                }
+            },
+            {
+                "name": "Audubon Community Nature Center",
+                "image": "./img/wk17/IMG_1251.webp",
+                "location": "Jamestown, NY",
+                "mileage": 2.3,
+                "date": "5/3/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 41
+                }
+            },
+            {
+                "name": "Sprague Brook County Park",
+                "image": "./img/wk17/IMG_1250.webp",
+                "location": "Glenwood, NY",
+                "mileage": 4.0,
+                "date": "5/4/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 30
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 19,
+        "hikes": [
+            {
+                "name": "Margery Gallogly Nature Sanctuary",
+                "image": "./img/wk19/IMG_1249.webp",
+                "location": "Grand Island, NY",
+                "mileage": 1.2,
+                "date": "5/6/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 21
+                }
+            },
+            {
+                "name": "JP Nicely Park",
+                "image": "./img/wk19/IMG_1248.webp",
+                "location": "West Falls, NY",
+                "mileage": 1.2,
+                "date": "5/8/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 24
+                }
+            },
+            {
+                "name": "Reinstein Woods",
+                "image": "./img/wk19/IMG_1247.webp",
+                "location": "Depew, NY",
+                "mileage": 2.5,
+                "date": "5/10/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 43
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 20,
+        "hikes": [
+            {
+                "name": "Pfeiffer Nature Center",
+                "image": "./img/wk20/IMG_1246.webp",
+                "location": "Portville, NY",
+                "mileage": 3.0,
+                "date": "5/13/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 0
+                }
+            },
+            {
+                "name": "Tillman WMA",
+                "image": "./img/wk20/IMG_1245.webp",
+                "location": "Clarence, NY",
+                "mileage": 2.3,
+                "date": "5/15/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 42
+                }
+            },
+            {
+                "name": "Chestnut Ridge",
+                "image": "./img/wk20/IMG_1244.webp",
+                "location": "Orchard Park, NY",
+                "mileage": 3.9,
+                "date": "5/15/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 14
+                }
+            },
+            {
+                "name": "John B Austin Nature Trail",
+                "image": "./img/wk20/IMG_1243.webp",
+                "location": "Lockport, NY",
+                "mileage": 1.61,
+                "date": "5/18/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 32
+                }
+            },
+            {
+                "name": "Thunder Rocks",
+                "image": "./img/wk20/IMG_1242.webp",
+                "location": "Limestone, NY",
+                "mileage": 3.22,
+                "date": "5/19/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 25
+                }
+            },
+            {
+                "name": "Beehunter Trail",
+                "image": "./img/wk20/IMG_1241.webp",
+                "location": "Limestone, NY",
+                "mileage": 6.03,
+                "date": "5/19/24",
+                "duration": {
+                    "hours": 2,
+                    "minutes": 55
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 21,
+        "hikes": [
+            {
+                "name": "Boutwell Hill State Forest",
+                "image": "./img/wk21/IMG_1240.webp",
+                "location": "Cherry Creek, NY",
+                "mileage": 6.65,
+                "date": "5/24/24",
+                "duration": {
+                    "hours": 2,
+                    "minutes": 6
+                }
+            },
+            {
+                "name": "Deer Lick Conservation Area",
+                "image": "./img/wk21/IMG_1239.webp",
+                "location": "Gowanda, NY",
+                "mileage": 3.67,
+                "date": "5/24/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 23
+                }
+            },
+            {
+                "name": "Franklin Gulf County Park",
+                "image": "./img/wk21/IMG_1238.webp",
+                "location": "North Collins, NY",
+                "mileage": 3.26,
+                "date": "5/24/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 13
+                }
+            },
+            {
+                "name": "Royalton Ravine",
+                "image": "./img/wk21/IMG_1237.webp",
+                "location": "North Collins, NY",
+                "mileage": 2.1,
+                "date": "5/25/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 41
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 22,
+        "hikes": [
+        ]
+    },
+    {
+        "week_number": 23,
+        "hikes": [
+            {
+                "name": "Eighteen mile creek",
+                "image": "./img/wk23/IMG_1236.webp",
+                "location": "Hamburg, NY",
+                "mileage": 3.6,
+                "date": "6/8/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 8
+                }
+            },
+            {
+                "name": "Carlton Hill Multiple Use Area",
+                "image": "./img/wk23/IMG_1235.webp",
+                "location": "Dale, NY",
+                "mileage": 7.18,
+                "date": "6/8/24",
+                "duration": {
+                    "hours": 3,
+                    "minutes": 4
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 24,
+        "hikes": [
+        ]
+    },
+    {
+        "week_number": 25,
+        "hikes": [
+            {
+                "name": "Creation Walk",
+                "image": "./img/wk25/IMG_1234.webp",
+                "location": "Marilla, NY",
+                "mileage": 1.23,
+                "date": "6/16/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 24
                 }
             }
         ]
