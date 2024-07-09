@@ -715,6 +715,93 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 26,
+        "hikes": [
+            {
+                "name": "Tift Nature Preserve",
+                "image": "./img/wk26/IMG_1468.webp",
+                "location": "Buffalo, NY",
+                "mileage": 2.6,
+                "date": "6/30/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 50
+                }
+            },
+            {
+                "name": "Genesee County Park and Forest",
+                "image": "./img/wk26/IMG_1467.webp",
+                "location": "Wyoming, NY",
+                "mileage": 3.16,
+                "date": "6/30/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 1
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 27,
+        "hikes": [
+            {
+                "name": "Chimney Bluffs",
+                "image": "./img/wk27/IMG_1466.webp",
+                "location": "Wolcott, NY",
+                "mileage": 3.11,
+                "date": "7/4/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 1
+                }
+            },
+            {
+                "name": "Robert Treman State Park",
+                "image": "./img/wk27/IMG_1465.webp",
+                "location": "Ithaca, NY",
+                "mileage": 4.32,
+                "date": "7/4/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 39
+                }
+            },
+            {
+                "name": "Hi Tor Wilderness Management Area",
+                "image": "./img/wk27/IMG_1464.webp",
+                "location": "Naples, NY",
+                "mileage": 4.3,
+                "date": "7/4/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 45
+                }
+            },
+            {
+                "name": "Rob's Trail",
+                "image": "./img/wk27/IMG_1463.webp",
+                "location": "Springwater, NY",
+                "mileage": 2.76,
+                "date": "7/4/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 3
+                }
+            },
+            {
+                "name": "Beaver Meadows",
+                "image": "./img/wk27/IMG_1462.webp",
+                "location": "Java Center, NY",
+                "mileage": 2.61,
+                "date": "7/7/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 52
+                }
+            }
+        ]
     }
     ]
 };
