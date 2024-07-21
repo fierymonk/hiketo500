@@ -802,6 +802,39 @@ export var hikeData ={
                 }
             }
         ]
-    }
+    },
+    {
+        "week_number": 28,
+        "hikes": [
+            {
+                "name": "Mt. Tuscorara Trail",
+                "image": "./img/wk28/IMG_1570.webp",
+                "location": "Salamanca, NY",
+                "mileage": 10.2,
+                "date": "7/13/24",
+                "duration": {
+                    "hours": 3,
+                    "minutes": 58
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 29,
+        "hikes": [
+            {
+                "name": "Holimont to Rock City",
+                "image": "./img/wk29/IMG_1571.webp",
+                "location": "Ellicottville, NY",
+                "mileage": 16.0,
+                "date": "7/20/24",
+                "duration": {
+                    "hours": 6,
+                    "minutes": 8
+                }
+            }
+        ]
+    },
+
     ]
 };
