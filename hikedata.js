@@ -835,6 +835,66 @@ export var hikeData ={
             }
         ]
     },
+    {
+        "week_number": 30,
+        "hikes": [
+            {
+                "name": "Rollin T. Grant",
+                "image": "./img/wk30/IMG_1621.webp",
+                "location": "Lockport, NY",
+                "mileage": 1.72,
+                "date": "7/26/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 34
+                }
+            },
+            {
+                "name": "Mossy Point / Hunter's Creek",
+                "image": "./img/wk30/IMG_1622.webp",
+                "location": "East Aurora, NY",
+                "mileage": 7.29,
+                "date": "7/27/24",
+                "duration": {
+                    "hours": 2,
+                    "minutes": 54
+                }
+            },
+            {
+                "name": "Kanyoo Trail",
+                "image": "./img/wk30/IMG_1623.webp",
+                "location": "Alabama, NY",
+                "mileage": 1.12,
+                "date": "7/27/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 21
+                }
+            },
+            {
+                "name": "Boyce Hill State Park",
+                "image": "./img/wk30/IMG_1624.webp",
+                "location": "Machias, NY",
+                "mileage": 4.56,
+                "date": "7/28/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 32
+                }
+            },
+            {
+                "name": "Griffis Sculpture Park",
+                "image": "./img/wk30/IMG_1625.webp",
+                "location": "East Otto, NY",
+                "mileage": 2,
+                "date": "7/28/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 34
+                }
+            }
+        ]
+    },
 
     ]
 };
