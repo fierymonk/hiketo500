@@ -895,6 +895,124 @@ export var hikeData ={
             }
         ]
     },
+    {
+        "week_number": 31,
+        "hikes": [
+            {
+                "name": "Como Lake Park",
+                "image": "./img/wk31/IMG_1663.webp",
+                "location": "Lancaster, NY",
+                "mileage": 4.63,
+                "date": "8/1/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 12
+                }
+            },
+            {
+                "name": "Allegany Wildlands",
+                "image": "./img/wk31/IMG_1659.webp",
+                "location": "Frewsburg, NY",
+                "mileage": 2.6,
+                "date": "8/4/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 1
+                }
+            },
+            {
+                "name": "Griffis Sculpture Park",
+                "image": "./img/wk31/IMG_1661.webp",
+                "location": "East Otto, NY",
+                "mileage": 1.4,
+                "date": "8/4/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 27
+                }
+            },
+            {
+                "name": "Hunters Creek",
+                "image": "./img/wk31/IMG_1662.webp",
+                "location": "South Wales, NY",
+                "mileage": 3.11,
+                "date": "8/4/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 5
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 32,
+        "hikes": [
+            {
+                "name": "Letchworth Trail 18",
+                "image": "./img/wk32/IMG_1885.webp",
+                "location": "Perry, NY",
+                "mileage": 3.37,
+                "date": "8/10/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 30
+                }
+            },{
+                "name": "Hunters Creek",
+                "image": "./img/wk32/IMG_1886.webp",
+                "location": "East Aurora, NY",
+                "mileage": 7.92,
+                "date": "8/11/24",
+                "duration": {
+                    "hours": 2,
+                    "minutes": 32
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 33,
+        "hikes": [
+            {
+                "name": "Devil's Hole - Whirlpool Rapids",
+                "image": "./img/wk33/IMG_1887.webp",
+                "location": "Niagara Falls, NY",
+                "mileage": 4.75,
+                "date": "8/16/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 28
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 34,
+        "hikes": [
+            {
+                "name": "Stony Brook State Park",
+                "image": "./img/wk34/IMG_1888.webp",
+                "location": "Dansville, NY",
+                "mileage": 1.66,
+                "date": "8/27/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 39
+                }
+            },
+            {
+                "name": "Letchworth State Park, FLT Section",
+                "image": "./img/wk34/IMG_1889.webp",
+                "location": "Mount Morris, NY",
+                "mileage": 7.19,
+                "date": "8/27/24",
+                "duration": {
+                    "hours": 2,
+                    "minutes": 17
+                }
+            }
+        ]
+    }
 
     ]
 };
