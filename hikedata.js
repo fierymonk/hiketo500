@@ -1012,6 +1012,22 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 35,
+        "hikes": [
+            {
+                "name": "FLT Branch, Letchworth",
+                "image": "./img/wk35/IMG_1906.webp",
+                "location": "Mount Morris, NY",
+                "mileage": 21,
+                "date": "8/31/24",
+                "duration": {
+                    "hours": 7,
+                    "minutes": 27
+                }
+            }
+        ]
     }
 
     ]
