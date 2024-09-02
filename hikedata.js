@@ -439,7 +439,7 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Walton Woods",
-                "image": "./img/wk17/IMG_1255.webp",
+                "image": "./img/wk18/IMG_1255.webp",
                 "location": "Amherst, NY",
                 "mileage": 1.4,
                 "date": "5/1/24",
@@ -450,7 +450,7 @@ export var hikeData ={
             },
             {
                 "name": "Birdsong Park",
-                "image": "./img/wk17/IMG_1254.webp",
+                "image": "./img/wk18/IMG_1254.webp",
                 "location": "Orchard Park, NY",
                 "mileage": 1.5,
                 "date": "5/1/24",
@@ -461,7 +461,7 @@ export var hikeData ={
             },
             {
                 "name": "Chautauqua Gorge State Forest",
-                "image": "./img/wk17/IMG_1253.webp",
+                "image": "./img/wk18/IMG_1253.webp",
                 "location": "Mayville, NY",
                 "mileage": 4.2,
                 "date": "5/3/24",
@@ -472,7 +472,7 @@ export var hikeData ={
             },
             {
                 "name": "North Harmony State Forest",
-                "image": "./img/wk17/IMG_1252.webp",
+                "image": "./img/wk18/IMG_1252.webp",
                 "location": "Panama, NY",
                 "mileage": 6.2,
                 "date": "5/3/24",
@@ -483,7 +483,7 @@ export var hikeData ={
             },
             {
                 "name": "Audubon Community Nature Center",
-                "image": "./img/wk17/IMG_1251.webp",
+                "image": "./img/wk18/IMG_1251.webp",
                 "location": "Jamestown, NY",
                 "mileage": 2.3,
                 "date": "5/3/24",
@@ -494,7 +494,7 @@ export var hikeData ={
             },
             {
                 "name": "Sprague Brook County Park",
-                "image": "./img/wk17/IMG_1250.webp",
+                "image": "./img/wk18/IMG_1250.webp",
                 "location": "Glenwood, NY",
                 "mileage": 4.0,
                 "date": "5/4/24",
@@ -1040,7 +1040,7 @@ export var hikeData ={
                 "date": "9/02/24",
                 "duration": {
                     "hours": 1,
-                    "minutes": 06
+                    "minutes": 6
                 }
             }
         ]
