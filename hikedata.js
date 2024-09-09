@@ -1042,6 +1042,28 @@ export var hikeData ={
                     "hours": 1,
                     "minutes": 6
                 }
+            },
+            {
+                "name": "Sprague Brook County Park",
+                "image": "./img/wk36/IMG_1967.webp",
+                "location": "Glenwood, NY",
+                "mileage": 10.2,
+                "date": "9/07/24",
+                "duration": {
+                    "hours": 3,
+                    "minutes": 2
+                }
+            },
+            {
+                "name": "Reinstein Woods",
+                "image": "./img/wk36/IMG_1982.webp",
+                "location": "Depew, NY",
+                "mileage": 1.55,
+                "date": "9/08/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 30
+                }
             }
         ]
     }
