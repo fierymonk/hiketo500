@@ -1066,6 +1066,55 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 37,
+        "hikes": [
+            {
+                "name": "Tift Nature Preserve",
+                "image": "./img/wk37/IMG_2059.webp",
+                "location": "Buffalo, NY",
+                "mileage": 1.7,
+                "date": "9/11/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 28
+                }
+            },
+            {
+                "name": "JP Nicely Park",
+                "image": "./img/wk37/IMG_2060.webp",
+                "location": "West Falls, NY",
+                "mileage": 1.5,
+                "date": "9/11/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 35
+                }
+            },
+            {
+                "name": "Wiscoy Falls",
+                "image": "./img/wk37/IMG_2061.webp",
+                "location": "Portageville, NY",
+                "mileage": 0.6,
+                "date": "9/13/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 14
+                }
+            },
+            {
+                "name": "Art Park to Niagara Falls",
+                "image": "./img/wk37/IMG_2044.webp",
+                "location": "Lewiston, NY",
+                "mileage": 17.4,
+                "date": "9/14/24",
+                "duration": {
+                    "hours": 4,
+                    "minutes": 59
+                }
+            }
+        ]
     }
 
     ]
