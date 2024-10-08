@@ -1115,6 +1115,76 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 38,
+        "hikes": [
+            {
+                "name": "Chestnut Ridge",
+                "image": "./img/wk38/IMG_2184.webp",
+                "location": "Orchard Park, NY",
+                "mileage": 2.75,
+                "date": "9/18/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 49
+                }
+            },
+            {
+                "name": "Scoby Damn",
+                "image": "./img/wk38/IMG_2183.webp",
+                "location": "Springville, NY",
+                "mileage": 0.3,
+                "date": "9/21/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 10
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 39,
+        "hikes": [
+            {
+                "name": "Allegany State Park",
+                "image": "./img/wk39/asf_loop.webp",
+                "location": "Salamanca, NY",
+                "mileage": 15.42,
+                "date": "9/27/24",
+                "duration": {
+                    "hours": 5,
+                    "minutes": 4
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 40,
+        "hikes": [
+            {
+                "name": "Franklin Gulf County Park",
+                "image": "./img/wk40/IMG_2185.webp",
+                "location": "Eden, NY",
+                "mileage": 2.68,
+                "date": "10/05/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 57
+                }
+            },
+            {
+                "name": "Sprague Brook County Park",
+                "image": "./img/wk40/IMG_2186.webp",
+                "location": "Glenwood, NY",
+                "mileage": 13.14,
+                "date": "10/06/24",
+                "duration": {
+                    "hours": 4,
+                    "minutes": 4
+                }
+            }
+        ]
     }
 
     ]
