@@ -1185,6 +1185,82 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 41,
+        "hikes": [
+            {
+                "name": "Beaver Meadows",
+                "image": "./img/wk41/IMG_2185.webp",
+                "location": "Java Center, NY",
+                "mileage": 2.51,
+                "date": "10/12/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 7
+                }
+            },
+            {
+                "name": "Letchworth State Park",
+                "image": "./img/wk41/IMG_2186.webp",
+                "location": "Portageville, NY",
+                "mileage": 5.89,
+                "date": "10/12/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 56
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 42,
+        "hikes": [
+            {
+                "name": "Akron Falls",
+                "image": "./img/wk42/IMG_2185.webp",
+                "location": "Akron, NY",
+                "mileage": 1.56,
+                "date": "10/14/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 29
+                }
+            },
+            {
+                "name": "Allegany State Park",
+                "image": "./img/wk42/IMG_2186.webp",
+                "location": "Salamanca, NY",
+                "mileage": 18.65,
+                "date": "10/19/24",
+                "duration": {
+                    "hours": 6,
+                    "minutes": 7
+                }
+            },
+            {
+                "name": "Bridal Falls ASP",
+                "image": "./img/wk42/IMG_2186.webp",
+                "location": "Salamanca, NY",
+                "mileage": 0.24,
+                "date": "10/19/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 7
+                }
+            },
+            {
+                "name": "Reinstein Woods",
+                "image": "./img/wk42/IMG_2186.webp",
+                "location": "Depew, NY",
+                "mileage": 1.59,
+                "date": "10/20/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 38
+                }
+            }
+        ]
     }
 
     ]
