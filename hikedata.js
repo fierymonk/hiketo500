@@ -1229,7 +1229,7 @@ export var hikeData ={
             },
             {
                 "name": "Allegany State Park",
-                "image": "./img/wk42/IMG_2186.webp",
+                "image": "./img/wk42/banana-pancake.webp",
                 "location": "Salamanca, NY",
                 "mileage": 18.65,
                 "date": "10/19/24",
@@ -1258,6 +1258,22 @@ export var hikeData ={
                 "duration": {
                     "hours": 0,
                     "minutes": 38
+                }
+            }
+        ]
+    },
+    {
+        "week_number": 43,
+        "hikes": [
+            {
+                "name": "Sprague Brook County Park",
+                "image": "./img/wk43/x.webp",
+                "location": "Glenwood, NY",
+                "mileage": 13.67,
+                "date": "10/27/24",
+                "duration": {
+                    "hours": 4,
+                    "minutes": 7
                 }
             }
         ]
