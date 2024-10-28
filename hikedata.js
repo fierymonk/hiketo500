@@ -1191,7 +1191,7 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Beaver Meadows",
-                "image": "./img/wk41/IMG_2185.webp",
+                "image": "./img/wk41/IMG_2403.webp",
                 "location": "Java Center, NY",
                 "mileage": 2.51,
                 "date": "10/12/24",
@@ -1202,7 +1202,7 @@ export var hikeData ={
             },
             {
                 "name": "Letchworth State Park",
-                "image": "./img/wk41/IMG_2186.webp",
+                "image": "./img/wk41/IMG_2404.webp",
                 "location": "Portageville, NY",
                 "mileage": 5.89,
                 "date": "10/12/24",
@@ -1218,7 +1218,7 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Akron Falls",
-                "image": "./img/wk42/IMG_2185.webp",
+                "image": "./img/wk42/IMG_2405.webp",
                 "location": "Akron, NY",
                 "mileage": 1.56,
                 "date": "10/14/24",
@@ -1240,7 +1240,7 @@ export var hikeData ={
             },
             {
                 "name": "Bridal Falls ASP",
-                "image": "./img/wk42/IMG_2186.webp",
+                "image": "./img/wk42/IMG_2406.webp",
                 "location": "Salamanca, NY",
                 "mileage": 0.24,
                 "date": "10/19/24",
@@ -1251,7 +1251,7 @@ export var hikeData ={
             },
             {
                 "name": "Reinstein Woods",
-                "image": "./img/wk42/IMG_2186.webp",
+                "image": "./img/wk42/IMG_2407.webp",
                 "location": "Depew, NY",
                 "mileage": 1.59,
                 "date": "10/20/24",
@@ -1267,7 +1267,7 @@ export var hikeData ={
         "hikes": [
             {
                 "name": "Sprague Brook County Park",
-                "image": "./img/wk43/x.webp",
+                "image": "./img/wk43/IMG_2408.webp",
                 "location": "Glenwood, NY",
                 "mileage": 13.67,
                 "date": "10/27/24",
