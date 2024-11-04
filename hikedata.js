@@ -1277,6 +1277,22 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 44,
+        "hikes": [
+            {
+                "name": "Letchworth State Park FLT",
+                "image": "./img/wk44/letchworth-flt.png",
+                "location": "Mount Morris, NY",
+                "mileage": 25.35,
+                "date": "11/03/24",
+                "duration": {
+                    "hours": 8,
+                    "minutes": 23
+                }
+            }
+        ]
     }
 
     ]
