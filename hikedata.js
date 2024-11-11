@@ -1293,6 +1293,44 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 45,
+        "hikes": [
+            {
+                "name": "Reinstein Woods",
+                "image": "./img/wk45/reinstein-nov09.webp",
+                "location": "Depew, NY",
+                "mileage": 2.15,
+                "date": "11/09/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 40
+                }
+            },
+            {
+                "name": "Hunters Creek",
+                "image": "./img/wk45/hunterscreek-nov09.webp",
+                "location": "East Aurora, NY",
+                "mileage": 3.52,
+                "date": "11/09/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 22
+                }
+            },
+            {
+                "name": "18 Mile Creek",
+                "image": "./img/wk45/eighteenmilecreek-nov10.webp",
+                "location": "Hamburg, NY",
+                "mileage": 4.33,
+                "date": "11/10/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 20
+                }
+            }
+        ]
     }
 
     ]
