@@ -1342,8 +1342,8 @@ export var hikeData ={
                 "mileage": 6.18,
                 "date": "11/11/24",
                 "duration": {
-                    "hours": 0,
-                    "minutes": 40
+                    "hours": 1,
+                    "minutes": 55
                 }
             }
         ]
