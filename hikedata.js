@@ -1333,7 +1333,7 @@ export var hikeData ={
         ]
     },
     {
-        "week_number": 45,
+        "week_number": 46,
         "hikes": [
             {
                 "name": "Chestnut Ridge",
@@ -1344,8 +1344,10 @@ export var hikeData ={
                 "duration": {
                     "hours": 0,
                     "minutes": 40
-            },
+                }
+            }
         ]
     }
+
     ]
 };
