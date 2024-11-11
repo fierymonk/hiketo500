@@ -1331,7 +1331,21 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 45,
+        "hikes": [
+            {
+                "name": "Chestnut Ridge",
+                "image": "./img/wk46/chestnutridge-nov11.webp",
+                "location": "Orchard Park, NY",
+                "mileage": 6.18,
+                "date": "11/11/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 40
+            },
+        ]
     }
-
     ]
 };
