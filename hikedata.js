@@ -1345,6 +1345,17 @@ export var hikeData ={
                     "hours": 1,
                     "minutes": 55
                 }
+            },
+            {
+                "name": "Letchworth State Park, Trail 1",
+                "image": "./img/wk46/letchworth-nov16.webp",
+                "location": "Portageville, NY",
+                "mileage": 15.04,
+                "date": "11/16/24",
+                "duration": {
+                    "hours": 4,
+                    "minutes": 48
+                }
             }
         ]
     }
