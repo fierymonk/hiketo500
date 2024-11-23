@@ -1358,6 +1358,33 @@ export var hikeData ={
                 }
             }
         ]
+    },
+    {
+        "week_number": 47,
+        "hikes": [
+            {
+                "name": "Hunter's Creek",
+                "image": "./img/wk47/hunterscreek-nov23.png",
+                "location": "East Aurora, NY",
+                "mileage": 4.92,
+                "date": "11/23/24",
+                "duration": {
+                    "hours": 1,
+                    "minutes": 49
+                }
+            },
+            {
+                "name": "Pfeiffer Nature Center",
+                "image": "./img/wk47/pfeiffer-nov23.png",
+                "location": "Portville, NY",
+                "mileage": 1.64,
+                "date": "11/16/24",
+                "duration": {
+                    "hours": 0,
+                    "minutes": 40
+                }
+            }
+        ]
     }
 
     ]
